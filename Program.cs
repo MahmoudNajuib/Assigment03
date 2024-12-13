@@ -1,8 +1,6 @@
 ﻿//     Mahmoud Najuib AbdEltwab     -    C42-G02-C#03    -    Have Exception in Deliver The Assignment.
 //
 
-using System.Buffers.Text;
-
 namespace Assigment03
 {
     internal class Program
@@ -67,8 +65,8 @@ namespace Assigment03
             //Console.Write("Write a Third Number: ");
             //int.TryParse(Console.ReadLine(), out int Num3);
 
-            //int Max = Math.Max(Num1, Math.Max(Num2, Num3));         //Froms Inside to Outside.
-            //int Min = Math.Min(Num1, Math.Min(Num2, Num3));         //Froms Outside to Inside.
+            //int Max = Math.Max(Num1, Math.Max(Num2, Num3));         //From Inside to Outside.
+            //int Min = Math.Min(Num1, Math.Min(Num2, Num3));         //From Inside to Outside.
 
             //Console.WriteLine($"\nThe Max Element: {Max}");
             //Console.WriteLine($"The Min Element: {Min}");
@@ -259,7 +257,7 @@ namespace Assigment03
             //    }
             //    else
             //    {
-            //        Console.WriteLine("Invalid Base Exponent. Please Enter a Valid Integer.");
+            //        Console.WriteLine("Invalid Exponent Input. Please Enter a Valid Integer.");
             //    }
             //}
             //else
@@ -269,19 +267,185 @@ namespace Assigment03
 
             #endregion
 
-            #region 10. Write a program to enter marks of five subjects and calculate total, average and percentage:
+            #region 10. Write a program to enter marks of five subjects and calculate total, average and percentage: **************
 
+            //    Console.WriteLine("Enter Marks for Five Subjects:\n");
+            //    Double Sub1, Sub2, Sub3, Sub4, Sub5;
+            //One:
+            //    Console.Write($"Enter Marks for Subject '1': ");
+            //    if (Double.TryParse(Console.ReadLine(), out Sub1) && Sub1 >= 0 && Sub1 <= 100)
+            //    {
+            //    Two:
+            //        Console.Write($"Enter Marks for Subject '2': ");
+            //        if (Double.TryParse(Console.ReadLine(), out Sub2) && Sub2 >= 0 && Sub2 <= 100)
+            //        {
+            //        Three:
+            //            Console.Write($"Enter Marks for Subject '3': ");
+            //            if (Double.TryParse(Console.ReadLine(), out Sub3) && Sub3 >= 0 && Sub3 <= 100)
+            //            {
+            //            Four:
+            //                Console.Write($"Enter Marks for Subject '4': ");
+            //                if (Double.TryParse(Console.ReadLine(), out Sub4) && Sub4 >= 0 && Sub4 <= 100)
+            //                {
+            //                Five:
+            //                    Console.Write($"Enter Marks for Subject '5': ");
+            //                    if (Double.TryParse(Console.ReadLine(), out Sub5) && Sub5 >= 0 && Sub5 <= 100)
+            //                    {
 
+            //                        //Decimal Total = Sub1 + Sub2 + Sub3 + Sub4 + Sub5;
+            //                        Double Total = Sub1 + Sub2 + Sub3 + Sub4 + Sub5;
+
+            //                        //Displaying Results:
+            //                        Console.WriteLine("\n\nResults:\n");
+
+            //                        //Total:
+            //                        Console.WriteLine($"Total marks = {Total}");
+
+            //                        //Average:
+            //                        Console.WriteLine($"Average Marks = {Total / 5}");
+
+            //                        //Percentage:
+            //                        Console.WriteLine($"Percentage = {Total * 100 / 500}%");
+
+            //                    }
+            //                    else
+            //                    {
+            //                        Console.WriteLine("Invalid Input. Please Enter a Valid Integer Again.\n");
+            //                        goto Five;        //To go to The Reference.
+            //                    }
+            //                }
+            //                else
+            //                {
+            //                    Console.WriteLine("Invalid Input. Please Enter a Valid Integer Again.\n");
+            //                    goto Four;        //To go to The Reference.
+            //                }
+            //            }
+            //            else
+            //            {
+            //                Console.WriteLine("Invalid Input. Please Enter a Valid Integer Again.\n");
+            //                goto Three;        //To go to The Reference.
+            //            }
+            //        }
+            //        else
+            //        {
+            //            Console.WriteLine("Invalid Input. Please Enter a Valid Integer Again.\n");
+            //            goto Two;        //To go to The Reference.
+            //        }
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Invalid Input. Please Enter a Valid Integer Again.\n");
+            //        goto One;        //To go to The Reference.
+            //    }
 
             #endregion
 
-            #region 11. 
+            #region 11. Write a program to input the month number and print the number of days in that month:
 
+            /* Days of Months:
+            Month 1  = 31
+            Month 2  = 28
+            Month 3  = 31
+            Month 4  = 30
+            Month 5  = 31
+            Month 6  = 30
+            Month 7  = 31
+            Month 8  = 31
+            Month 9  = 30
+            Month 10 = 31
+            Month 11 = 30
+            Month 12 = 31
+            */
+
+            //Top:
+            //Console.Write("Enter The Month Number (1 ~ 12): ");
+
+            //if (int.TryParse(Console.ReadLine(), out int Month))
+            //{
+            //    int MonthDays = 0;
+
+            //    if (Month == 4 || Month == 6 || Month == 9 || Month == 11)
+            //    {
+            //        MonthDays = 30;
+            //    }
+            //    else if (Month == 2)
+            //    {
+            //        MonthDays = 28;
+            //    }
+            //    else if (Month >= 1 && Month <= 12)
+            //    {
+            //        MonthDays = 31;
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("\nInvalid Month Number. Please Enter a Valid Month Number\n\n");
+            //        goto Top;
+            //    }
+
+            //    Console.WriteLine($"\nThe Number of Days in '{Month}' is: {MonthDays}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("\nInvalid Input. Please Enter a Valid Month Number.\n\n");
+            //    goto Top;
+            //}
 
             #endregion
 
-            #region 12. 
+            #region 12. Write a program to create a Simple Calculator:
 
+        //    Console.Title = "Simple Calculator";
+
+        //Adding_Numbers:
+        //    Console.Write("Enter The First Number: ");
+        //    double Num1 = Convert.ToDouble(Console.ReadLine());
+
+        //    Console.Write("Enter The Second Number: ");
+        //    double Num2 = Convert.ToDouble(Console.ReadLine());
+
+        ////Operations:
+        //Operations:
+        //    Console.WriteLine("Select an Operation:\n");
+        //    Console.WriteLine("1. Addition (+)");
+        //    Console.WriteLine("2. Subtraction (-)");
+        //    Console.WriteLine("3. Multiplication (*)");
+        //    Console.WriteLine("4. Division (/)");
+        //    Console.Write("Enter an Operation (1/2/3/4): ");
+
+        //    int Operation = Convert.ToInt32(Console.ReadLine());
+        //    double Result = 0;
+
+        //    switch (Operation)
+        //    {
+        //        case 1:
+        //            Result = Num1 + Num2;
+        //            Console.WriteLine($"\nResult: {Num1} + {Num2} = {Result}");
+        //            break;
+        //        case 2:
+        //            Result = Num1 - Num2;
+        //            Console.WriteLine($"\nResult: {Num1} - {Num2} = {Result}");
+        //            break;
+        //        case 3:
+        //            Result = Num1 * Num2;
+        //            Console.WriteLine($"\nResult: {Num1} * {Num2} = {Result}");
+        //            break;
+        //        case 4:
+        //            if (Num2 != 0)          //cause It isn't Possible to Division by Zero.
+        //            {
+        //                Result = Num1 / Num2;
+        //                Console.WriteLine($"\nResult: {Num1} / {Num2} = {Result}");
+        //            }
+        //            else
+        //            {
+        //                Console.WriteLine("\nError: Division by '0' is not Allowed. Please Try Again:\n\n");
+        //                goto Adding_Numbers;
+        //            }
+        //            break;
+
+        //        default:
+        //            Console.WriteLine("\nInvalid Operation Selected.");
+        //            goto Operations;
+        //    }
 
             #endregion
         }
