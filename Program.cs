@@ -72,7 +72,7 @@
 
             #endregion
 
-            #region 4. Write a program that allows the user to insert an integer number then check If a number is even or odd:
+            #region
 
 
             #endregion
