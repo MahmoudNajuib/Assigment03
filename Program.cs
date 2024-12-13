@@ -1,4 +1,9 @@
-﻿namespace Assigment03
+﻿//     Mahmoud Najuib AbdEltwab     -    C42-G02-C#03    -    Have Exception in Deliver The Assignment.
+//
+
+using System.Buffers.Text;
+
+namespace Assigment03
 {
     internal class Program
     {
@@ -173,7 +178,7 @@
             //{
             //    if (Number >= 1)
             //    {
-            //        Console.Write($"Numbers from 1 to {Number}:      ");
+            //        Console.Write($"\nNumbers from 1 to {Number}:      ");
             //        for (int i = 1; i <= Number; i++)
             //        {
             //            if (i < Number)                     //To Add ',' Between Numbers.
@@ -193,28 +198,79 @@
             //}
             //else
             //{
-            //    Console.WriteLine("Invalid input. Please Enter a Valid integer.");              //To Refuse Any Else Characters Without Errors.
+            //    Console.WriteLine("Invalid input. Please Enter a Valid Integer.");              //To Refuse Any Else Characters Without Errors.
             //}
 
             #endregion
 
-            #region 7. 
+            #region 7. Write a program that allows the user to insert an integer then print a multiplication table up to 12:
 
+            //Console.Write("Enter an Integer: ");
 
+            //if (int.TryParse(Console.ReadLine(), out int Number))
+            //{
+            //    Console.WriteLine($"\nThe Multiplicatio table for {Number}:\n");
+
+            //    for (int i = 1; i <= 12; i++)
+            //    {
+            //        Console.WriteLine($"{Number} x {i} = {Number * i}");
+            //    }
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid Input. Please Enter a Valid Integer.");
+            //}
 
             #endregion
 
-            #region 8. 
+            #region 8. Write a program that allows to user to insert number then print all even numbers between 1 to this number:
 
+            //Console.Write("Enter a Number: ");
+
+            //if (int.TryParse(Console.ReadLine(), out int Number))
+            //{
+            //    Console.Write($"\nEven numbers between 1 and {Number}:    ");
+
+            //    for (int i = 2; i <= Number; i += 2)
+            //    {
+            //        Console.Write($"{i} ");
+            //    }
+            //    Console.WriteLine();
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid Input. Please Enter a Valid Integer.");
+            //}
 
             #endregion
 
-            #region 9. 
+            #region 9. Write a program that takes two integers then prints the power:
 
+            //Console.Write("Enter The Base Number: ");
+            //if (int.TryParse(Console.ReadLine(), out int BaseNumber))
+            //{
+            //    Console.Write("Enter The Exponent Number: ");
+            //    if (int.TryParse(Console.ReadLine(), out int Exponent))
+            //    {
+            //        double Result = Math.Pow(BaseNumber, Exponent);         //Power Function 
+            //        Console.WriteLine("\n" + Result);
+            //        ////Or:
+            //        //Console.WriteLine($"The Power of {Exponent} for {BaseNumber} is: {Result}");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Invalid Base Exponent. Please Enter a Valid Integer.");
+            //    }
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid Base Input. Please Enter a Valid Integer.");
+            //}
 
             #endregion
 
-            #region 10. 
+            #region 10. Write a program to enter marks of five subjects and calculate total, average and percentage:
+
 
 
             #endregion
